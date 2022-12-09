@@ -1,0 +1,189 @@
+/* CSS HOME */
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:rgba(0, 0, 0, 0.8)
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+}
+
+.body-intro1 {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px lightcyan;
+  flex-direction: column;
+}
+
+.inner {
+  display: grid;
+  grid-area: "main";
+  place-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+}
+
+.inner a img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: 400ms;
+  transform: 400ms;
+}
+
+.card-text {
+  opacity: 0;
+  transition: 400ms;
+  transform: 400ms;
+}
+
+.inner * {
+  grid-area: main;
+  text-decoration: none;
+  color: #fff;
+}
+
+.inner:is(:hover, :focus) img {
+  transform: scale(1.1);
+  filter: brightness(0.2);
+}
+
+.inner.inner:is(:hover, :focus) .card-text {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.intro1 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.card {
+  box-shadow: 1px 1px 2px black;
+}
+
+.card-body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px lightslategrey;
+}
+
+/* footer */
+
+.footer-brand h4 {
+  text-decoration: underline darkgray;
+  text-shadow: 1px 1px 2px lightslategray;
+}
+
+.footer-link h4 {
+  text-decoration: underline darkgray;
+  text-shadow: 1px 1px 2px lightslategray;
+}
+
+.footer-link li {
+  list-style-type: none;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-link li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.footer-sosmed h4 {
+  text-decoration: underline darkgray;
+  text-shadow: 1px 1px 2px lightslategray;
+}
+
+.footer-sosmed li {
+  list-style-type: none;
+}
+
+.footer-sosmed li a i {
+  text-decoration: none;
+  color: lightcyan;
+}
+
+.footer-text {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+/*CSS HOME END */
+
+/*CSS CONTACT*/
+
+#contact {
+  background-color: teal;
+  color: black;
+}
+
+/*CSS CONTACT END*/
+
+/* CSS ABOUT ME */
+#aboutme {
+  background-color: teal;
+}
+
+
+
+/* Footer */
+
+.footer-brand h4 {
+  text-decoration: underline darkgray;
+  text-shadow: 1px 1px 2px lightslategray;
+}
+
+.footer-link h4 {
+  text-decoration: underline darkgray;
+  text-shadow: 1px 1px 2px lightslategray;
+}
+
+.footer-link li {
+  list-style-type: none;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-link li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.footer-sosmed h4 {
+  text-decoration: underline darkgray;
+  text-shadow: 1px 1px 2px lightslategray;
+}
+
+.footer-sosmed li {
+  list-style-type: none;
+}
+
+.footer-sosmed li a i {
+  text-decoration: none;
+  color: lightcyan;
+}
+
+.footer-text {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
